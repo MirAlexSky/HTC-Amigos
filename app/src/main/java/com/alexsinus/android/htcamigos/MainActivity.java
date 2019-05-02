@@ -42,9 +42,9 @@ public class MainActivity extends AppCompatActivity {
 
     listView = findViewById(R.id.listView);
 
-    Object o = getLastCustomNonConfigurationInstance();
-    if (o instanceof List) {
-      employees = (List<Employee>) o;
+    Object employees = getLastCustomNonConfigurationInstance();
+    if (employees instanceof List) {
+      this.employees = (List<Employee>) employees;
       removeProgressBar();
       setupAdapter();
     } else {
@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
   @Override
   public boolean onCreateOptionsMenu(Menu menu) {
     this.getMenuInflater().inflate(R.menu.activity_main, menu);
+
     return super.onCreateOptionsMenu(menu);
   }
 
@@ -64,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
     if (item.getItemId() == R.id.menu_update) {
       reloadEmployees();
     }
+
     return super.onOptionsItemSelected(item);
   }
 
