@@ -4,40 +4,40 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Employee {
-    private int mId;
-    private String mName;
-    private String mPhoneNumber;
-    private List<String> mSkills = new ArrayList<>();
+    private int id;
+    private String name;
+    private String phoneNumber;
+    private List<String> skills = new ArrayList<>();
 
     public void setName(String name) {
-        mName = name;
+        this.name = name;
     }
 
     public void setPhoneNumber(String phoneNumber) {
-        mPhoneNumber = phoneNumber;
+        this.phoneNumber = phoneNumber;
     }
 
     public void addSkill(String skill) {
-        mSkills.add(skill);
+        skills.add(skill);
     }
 
     public String getName() {
-        return mName;
+        return name;
     }
 
     public String getPhoneNumber() {
-        return mPhoneNumber;
+        return phoneNumber;
     }
 
     public List<String> getSkills() {
-        return mSkills;
+        return skills;
     }
 
     public int getId() {
-        return mId;
+        return id;
     }
 
     public void setId(int id) {
-        mId = id;
+        this.id = id;
     }
 }
