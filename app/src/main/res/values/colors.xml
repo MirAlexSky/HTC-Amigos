@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3A506B</color>
+    <color name="colorPrimaryDark">#1C2541</color>
+    <color name="colorAccent">#80DAD0</color>
+    <color name="colorSkillDef">#BEBEBE</color>
+    <color name="colorSkillDefStroke">#A5A5A5</color>
+    <color name="colorSkill1">#6EBE95</color>
+    <color name="colorSkill1Stroke">#5B9C7A</color>
+    <color name="colorSkill2">#da9d9d</color>
+    <color name="colorSkill2Stroke">#C08A8A</color>
+    <color name="colorSkill3">#DAD79D</color>
+    <color name="colorSkill3Stroke">#B3B081</color>
+    <color name="colorSkill4">#9DAEDA</color>
+    <color name="colorSkill4Stroke">#8391B6</color>
+    <color name="colorSkill5">#C89DDA</color>
+    <color name="colorSkill5Stroke">#A884B8</color>
+    <color name="colorSkill6">#DA9DCD</color>
+    <color name="colorSkill6Stroke">#BB87B0</color>
+    <color name="colorSkill7">#BCDA9D</color>
+    <color name="colorSkill7Stroke">#9FB985</color>
+    <color name="colorSkill8">#9DDABA</color>
+    <color name="colorSkill8Stroke">#87BBA0</color>
+    <color name="colorSkill9">#D695B7</color>
+    <color name="colorSkill9Stroke">#AD7895</color>
+    <color name="colorSkill10">#DA9DCD</color>
+    <color name="colorSkill10Stroke">#BB87B0</color>
+    <color name="colorSkill11">#8BB3D5</color>
+    <color name="colorSkill11Stroke">#7596B3</color>
+</resources>
